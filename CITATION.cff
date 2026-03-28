@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "ISCE2 topsStack InSAR Processing Wrapper"
+abstract: >
+  Fault-tolerant Bash wrapper scripts for running the ISCE2 topsStack
+  Sentinel-1 InSAR processing pipeline. Scripts check for existing outputs
+  before reprocessing, enabling clean restarts after partial failures
+  without re-running completed steps.
+authors:
+  - family-names: Singh
+    given-names: Manudeo
+    orcid: "https://orcid.org/0000-0002-3511-8362"
+    affiliation: "Department of Geography and Earth Sciences, Aberystwyth University"
+license: MIT
+repository-code: "https://github.com/manudeo/<repo-name>"
+keywords:
+  - InSAR
+  - Sentinel-1
+  - ISCE2
+  - topsStack
+  - SAR
+  - remote sensing
+  - geomorphology
+  - surface deformation
+version: "1.0.0"
+date-released: "2024-01-01"

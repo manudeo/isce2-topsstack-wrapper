@@ -1,0 +1,45 @@
+# ISCE2 working directories (large; should not be committed)
+run_02_unpack_secondary_slc/
+run_03_average_baseline/
+run_04_extract_burst_overlaps/
+run_05_overlap_geo2rdr/
+run_06_overlap_resample/
+run_07_pairs_misreg/
+run_08_timeseries_misreg/
+run_09_fullBurst_geo2rdr/
+run_10_fullBurst_resample/
+run_11_extract_stack_valid_region/
+run_12_merge_reference_secondary_slc/
+run_13_generate_burst_igram/
+run_14_merge_burst_igram/
+run_15_filter_coherence/
+run_16_unwrap/
+
+# Rerun helper files (generated at runtime)
+rerun_*.txt
+rerun_*.sh
+rerun_*.cmd
+
+# Log files
+log/
+
+# ISCE2 data directories (data should not be committed)
+reference/
+secondarys/
+coreg_secondarys/
+baselines/
+coarse_interferograms/
+interferograms/
+merged/
+misreg/
+configs/
+run_files/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor swap files
+*.swp
+*.swo
+*~
