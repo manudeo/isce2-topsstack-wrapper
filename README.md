@@ -287,6 +287,7 @@ Before running, your working directory should look like:
 - Scripts that run serially (`r4.sh`, `r8.sh`, `r11.sh`) do not check individual outputs — they simply re-run the corresponding `run_files/` script. If idempotency is needed, ISCE2 handles this internally for those steps.
 - Setting `N_PROCESSORS` too high relative to available RAM may cause out-of-memory failures, particularly during steps 9, 10, 13, and 16 (unwrapping). A safe starting point is 4–8 on a workstation with ≥64 GB RAM.
 - `SNAPHU` (step 16) is single-threaded per interferogram; parallelism here means multiple interferograms unwrapped simultaneously.
+- These scripts are specific to the **ISCE2 topsStack** workflow and are not compatible with ISCE3, which uses a fundamentally different YAML-based configuration and execution framework.
 
 ---
 
