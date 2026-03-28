@@ -48,7 +48,6 @@ The `topsStack` processor in ISCE2 generates a series of `run_files/run_NN_*` sc
 
 ## Quick Start
 
-
 ### Step 1 — Generate ISCE2 run files
 
 Run `stackSentinel.py` (or `SentinelWrapper.py` if using a custom config) to generate the `run_files/` directory.
@@ -87,7 +86,7 @@ Each wrapper script accepts an optional argument specifying the number of parall
 
 ### Get the scripts
 
-In your InSAR working directory: 
+In your InSAR working directory:
 
 **Option A — Clone (recommended, easiest to update later):**
 ```bash
@@ -100,7 +99,7 @@ cp isce2-topsstack-wrapper/r*.sh isce2-topsstack-wrapper/run_pipeline.sh .
 wget https://github.com/manudeo/isce2-topsstack-wrapper/archive/refs/heads/main.tar.gz -O - | tar -xz --wildcards --strip-components=1 '*/r*.sh' '*/run_pipeline.sh'
 ```
 
-**Option C — Download via browser:**  
+**Option C — Download via browser:**
 Click **Code → Download ZIP** on the [repository page](https://github.com/manudeo/isce2-topsstack-wrapper), unzip, and copy the `r*.sh` and `run_pipeline.sh` files into your working directory.
 
 Place the scripts in your ISCE2 `WORK_DIR` alongside `run_files/` before proceeding.
