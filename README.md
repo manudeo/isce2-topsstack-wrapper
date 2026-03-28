@@ -1,6 +1,7 @@
 # ISCE2 topsStack InSAR Processing Wrapper
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19294500.svg)](https://doi.org/10.5281/zenodo.19294500)
 
 A collection of fault-tolerant Bash wrapper scripts for running the [ISCE2](https://github.com/isce-framework/isce2) `topsStack` Sentinel-1 InSAR processing pipeline. Each script checks for existing outputs before reprocessing, enabling clean restarts after partial failures without re-running completed steps.
 
@@ -268,8 +269,8 @@ Before running, your working directory should look like:
 If you use these scripts in your research, please cite this repository and acknowledge ISCE2:
 
 ```
-Singh, M. (2024). ISCE2 topsStack InSAR Processing Wrapper [Software].
-GitHub. https://github.com/manudeo/isce2-topsstack-wrapper
+Singh, M. (2025). ISCE2 topsStack InSAR Processing Wrapper (v1.0.0). Zenodo.
+https://doi.org/10.5281/zenodo.19294500
 ```
 
 For ISCE2 itself, please cite:
