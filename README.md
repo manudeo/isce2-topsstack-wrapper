@@ -92,17 +92,22 @@ In your InSAR working directory:
 ```bash
 git clone https://github.com/manudeo/isce2-topsstack-wrapper.git
 cp isce2-topsstack-wrapper/r*.sh isce2-topsstack-wrapper/run_pipeline.sh .
+chmod +x r*.sh run_pipeline.sh
 ```
 
 **Option B — Download ZIP without Git:**
 ```bash
 wget https://github.com/manudeo/isce2-topsstack-wrapper/archive/refs/heads/main.tar.gz -O - | tar -xz --wildcards --strip-components=1 '*/r*.sh' '*/run_pipeline.sh'
+chmod +x r*.sh run_pipeline.sh
 ```
 
 **Option C — Download via browser:**
 Click **Code → Download ZIP** on the [repository page](https://github.com/manudeo/isce2-topsstack-wrapper), unzip, and copy the `r*.sh` and `run_pipeline.sh` files into your working directory.
 
-Place the scripts in your ISCE2 `WORK_DIR` alongside `run_files/` before proceeding.
+Place the scripts in your ISCE2 `WORK_DIR` alongside `run_files/` before proceeding. After placing the files, run:
+```bash
+chmod +x r*.sh run_pipeline.sh
+```
 
 **Interferogram stack** — run all steps:
 
