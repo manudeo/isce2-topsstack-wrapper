@@ -12,7 +12,8 @@ authors:
     orcid: "https://orcid.org/0000-0002-3511-8362"
     affiliation: "Department of Geography and Earth Sciences, Aberystwyth University"
 license: MIT
-repository-code: "https://github.com/manudeo/<repo-name>"
+repository-code: "https://github.com/manudeo/isce2-topsstack-wrapper"
+doi: "https://doi.org/10.5281/zenodo.19294500"
 keywords:
   - InSAR
   - Sentinel-1
