@@ -269,7 +269,7 @@ If you use these scripts in your research, please cite this repository and ackno
 
 ```
 Singh, M. (2024). ISCE2 topsStack InSAR Processing Wrapper [Software].
-GitHub. https://github.com/manudeo/<repo-name>
+GitHub. https://github.com/manudeo/isce2-topsstack-wrapper
 ```
 
 For ISCE2 itself, please cite:
