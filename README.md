@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19294500.svg)](https://doi.org/10.5281/zenodo.19294500)
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue)](https://github.com/manudeo/isce2-topsstack-wrapper/archive/refs/heads/main.zip)
 
 A collection of fault-tolerant Bash wrapper scripts for running the [ISCE2](https://github.com/isce-framework/isce2) `topsStack` Sentinel-1 InSAR processing pipeline. Each script checks for existing outputs before reprocessing, enabling clean restarts after partial failures without re-running completed steps.
 
@@ -47,6 +48,7 @@ The `topsStack` processor in ISCE2 generates a series of `run_files/run_NN_*` sc
 
 ## Quick Start
 
+
 ### Step 1 — Generate ISCE2 run files
 
 Run `stackSentinel.py` (or `SentinelWrapper.py` if using a custom config) to generate the `run_files/` directory.
@@ -82,6 +84,26 @@ mkdir -p log
 ### Step 3 — Run Steps 2–16 using these wrapper scripts
 
 Each wrapper script accepts an optional argument specifying the number of parallel processes (default: 1).
+
+### Get the scripts
+
+In your InSAR working directory: 
+
+**Option A — Clone (recommended, easiest to update later):**
+```bash
+git clone https://github.com/manudeo/isce2-topsstack-wrapper.git
+cp isce2-topsstack-wrapper/r*.sh isce2-topsstack-wrapper/run_pipeline.sh .
+```
+
+**Option B — Download ZIP without Git:**
+```bash
+wget https://github.com/manudeo/isce2-topsstack-wrapper/archive/refs/heads/main.tar.gz -O - | tar -xz --wildcards --strip-components=1 '*/r*.sh' '*/run_pipeline.sh'
+```
+
+**Option C — Download via browser:**  
+Click **Code → Download ZIP** on the [repository page](https://github.com/manudeo/isce2-topsstack-wrapper), unzip, and copy the `r*.sh` and `run_pipeline.sh` files into your working directory.
+
+Place the scripts in your ISCE2 `WORK_DIR` alongside `run_files/` before proceeding.
 
 **Interferogram stack** — run all steps:
 
