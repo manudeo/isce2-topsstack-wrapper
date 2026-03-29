@@ -296,7 +296,7 @@ Before running, your working directory should look like:
 If you use these scripts in your research, please cite this repository and acknowledge ISCE2:
 
 ```
-Singh, M. (2025). ISCE2 topsStack InSAR Processing Wrapper (v1.0.0). Zenodo.
+Singh, M. (2026). ISCE2 topsStack InSAR Processing Wrapper (v1.0.0). Zenodo.
 https://doi.org/10.5281/zenodo.19294500
 ```
 
