@@ -22,7 +22,7 @@ Department of Geography and Earth Sciences, Aberystwyth University
 ORCID: [0000-0002-3511-8362](https://orcid.org/0000-0002-3511-8362)  
 GitHub: [manudeo.github.io](https://manudeo.github.io)
 
-**Acknowledgement:** Portions of the swath/burst detection logic were adapted from scripts originally developed by **Professor Dr. Bodo Bookhagen** (University of Potsdam). His contributions to the open InSAR community are gratefully acknowledged.
+**Acknowledgement:** Portions of the swath/burst detection logic were adapted from scripts originally developed by my Humboldt Postdoc host, **Professor Dr. Bodo Bookhagen** (University of Potsdam). I am deeply grateful for his contributions to the open InSAR community and for his mentorship during my Humboldt Postdoc, which significantly shaped my understanding of InSAR techniques.
 
 ---
 
